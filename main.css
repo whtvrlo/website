@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+
+
+h1{
+    text-align: center;
+    margin-top: 10mm;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5mm;
+    padding-bottom: 30mm;
+    width: 8em;
+    font-family: 'Jacques Francois', serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    background-color: rgba(72, 53, 80, 0.541);
+    color: lightcyan;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none !important;
+    
+}
+
+
+#home {
+    width: 10%;
+}
+
+#archivepic {    
+    padding-top: 30px;
+    margin-left: 150px;
+    width: 70%;
+    align-items: center;
+    opacity: 80%;
+}
+
+
+
+img {
+    padding-top: 14;
+    width: 100%;
+    display: flex;
+    position:fixed
+}
+
+/* NAV BAR */
+.menubar a {
+    text-decoration:none;
+    color: rgb(27, 17, 16);
+    align-items: center;
+    /* width: 100%; */
+
+}
+
+.menubar {
+    margin-top: 10mm;
+    padding-top:1%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(153, 255, 195, 0.678);
+    height: 50px;
+    width: 100%;
+    font-size: 30px;
+    opacity: 70%;
+    position: fixed;
+    border-bottom: 1px rgba(0, 0, 0, 0.377) solid;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-color: rgba(0, 0, 0, 0.377);
+    border:rgba(0, 0, 0, 0.658);
+    border: 2px solid black;
+    width: 100%; 
+    z-index: 200;
+}
+
+
+a:hover {
+    font-size: 29px;
+    /* background-color: #0400ff2d;
+    width: 10%; */
+    color: rgba(177, 50, 73, 0.719);
+}
+
+/* .menubar a:hover {
+   color: rgb(145, 146, 132);
+    text-decoration: none !important;
+} */
+
+#imagecymbal{
+    background-color: rgba(190, 53, 64, 0.781);
+    border:rgb(208, 211, 35 2px);
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+
+body {
+    background-image: url("./video/IMG_6079.MOV");
+}
+
+#imagecymbal {
+    /* padding-top: 50px; */
+    width: 300px;
+    align-items: center;
+}
+
+/* main{
+    color: rgb(43, 34, 34);
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5mm;
+    text-align: center;
+    color: rgb(30, 48, 48);
+    text-shadow: rgb(32, 32, 46);
+    text-overflow: inherit;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: Arial Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Helvetica, sans-serif;
+    background-color: rgba(228, 255, 240, 0.486);
+    opacity: 75%;
+    width: 30%;
+    height: 10%;
+    font-size: 15px;
+    text-decoration: none !important;
+}
+
+.audiolinks:link{
+    text-decoration: none !important;
+    list-style-type: none;
+
+}
+
+
+
+/* main li {
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style-type: none;
+    background-color: rgba(131, 122, 45, 0.767);
+    border-width: medium; */
+/* } */
+
+/* .active:active {
+    color: red;
+  }
+  .focus:focus {
+    color: red;
+  }
+  :target {
+    color: red; */
+  /* } */
+
+  /* CONTACTPAGE LAYOUT */
+
+/* Style inputs with type="text", select elements and textareas */
+
+.contactform {
+    margin-top: 150px;
+    position: fixed;
+    direction: flex;
+    align-items: center;
+
+}
+
+header {    
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    font-family: 'Jacques Francois', serif;
+    font-size: 15px;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid rgb(248, 166, 128); /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    align-items: center;
+  }
+  
+  /* SUBMIT BUTTON */
+  input[type=submit] {
+    background-color: #27a073;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* HOVER SUBMIT BUTTON */
+  input[type=submit]:hover {
+    background-color: #c997777e;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    color: rgba(37, 27, 27, 0);
+    font-family:'Jacques Francois', serif;
+    text-shadow: #000705;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f200;
+    padding: 30px;
+  }
+
+
+
+
+ /* #container-een{
+     padding-top: 0px;
+     display: flex
+     
+     /* padding-top: 100px; 
+     height: 5mm;   */
+ /* } */
+
+/* .box{
+    font-size: 30px;
+    padding-top: 20%;
+    color: rgb(208, 211, 35);
+}
+
+#een{
+
+    background-color: rgba(173, 216, 230, 0.521);
+}
+
+#twee{
+    background-color: rgba(0, 0, 0, 0.658);
+    opacity: 250;
+    text-align: center;
+    font-family: monospace;
+
+
+}
+
+#drie{
+    background-color: rgba(241, 59, 241, 0.26);
+}
+
+#vier{
+    background-color: rgba(3, 3, 3, 0.527);
+}
+
+#vijf{
+    background-color: rgba(29, 12, 129, 0.404);
+} */ 
